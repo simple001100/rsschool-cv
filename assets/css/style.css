@@ -1,17 +1,16 @@
-.flex-container {
+body {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-body {
     font-family: "Helvetica", "Arial", sans-serif;
-    position:absolute;
     font-size: 16px;
     line-height: 1.5;
     color: #24292e;
     padding-right: 16px;
     padding-left: 16px;
-    margin: 0 auto;
 }
 
 a {
