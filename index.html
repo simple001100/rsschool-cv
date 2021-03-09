@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Timur Sarsymbaev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <main class="main-body">
+            <header>
+                <h1>
+                    rsschool/cv <time datetime="2021-03-08">08.03.2021</time>
+                </h1>
+            </header>
+            <section class="container">
+                <h2>Personal data</h2>
+                <hr>
+                <img class="avatar" src="assets/imges/Снимок.PNG" alt="My photo">
+                <ul>
+                    <li><b>Name:</b> Timur Sarsymbaev</li>
+                    <li><b>Date of Birth:</b> 14/11/2001</li>
+                    <li><b>Location:</b> Belarus, Mogilev</li>
+                    <li><b>Mobile:</b> 80298930736</li>
+                    <li><b>E-mail:</b><a href="sarsymbaef@yandex.by"> sarsymbaef@yandex.by</a></li>
+                    <li><b>LinkedIn:</b><a href="https://www.linkedin.com/in/timur-sarsymbaev-09721a1b0/">
+                            https://www.linkedin.com/in/timur-sarsymbaev-09721a1b0/</a></li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <h2>Technical skills</h2>
+                <hr>
+                <ul>
+                    <li>C#</li>
+                    <li>JS</li>
+                    <li>HTML, CSS, React</li>
+                    <li>GitHub</li>
+                    <li>Visual Studio, Visual Studio Code, Webstorm</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <h2>Lenguages</h2>
+                <hr>
+                <ul>
+                    <li>English - Pre-Intermediate (I improve my skills every day)</li>
+                    <li>Russian - Native speaker</li>
+                    <li>Belarussian - Native speaker</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <h2>Some facts about me</h2>
+                <hr>
+                <p>I like do sports like footbal, table tennis.</p>
+                <p>I am free of the bad habits.</p>
+                <p>In free time, I like to watch videos on youtube about game dev.</p>
+                <p>I can find the best solution to the problem in a short period of time.</p>
+            </section>
+
+            <section class="container">
+                <h2>Education</h2>
+                <hr>
+                <ul>
+                    <li>2019 - 2023 / Belarusian-Russian Uiversity / Automated Data Processing Systems (Information
+                        Technologies Engineer) / Mogilev, Belarus</li>
+                    <li>2020 - now / Aspect lenguage center / Pre-Intermediate course (English)</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <h2>Code example</h2>
+                <hr>
+                <pre>
+                <code data-language="c#">
+                    Program prog = new Program();
+                    int x = 9, y = 0, health = 10;
+                    int[,] bombs = new int[10, 10];
+                    prog.Bombs(bombs);
+                    try
+                    {
+                        while (x != -1)
+                        {
+                            prog.View(prog.Field(x, y), health);
+                            prog.Сontrol(ref x, ref y);
+                            prog.Boom(bombs, ref health, x, y);
+                            Console.Clear();
+                            if (prog.Congratulations(ref x, ref y, ref health)) break;
+                        }
+                    }
+                    catch
+                    {
+                        throw new ArgumentNullException("Field", "cannot be displayed");
+                    }
+                </code>
+            </pre>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <ul>
+                <li>
+                    <p><b>My github: </b><a href="https://github.com/simple001100">
+                            https://github.com/simple001100</a></p>
+                </li>
+                <li><a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg"
+                            alt="Course logo"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
